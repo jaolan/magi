@@ -14,6 +14,7 @@ contract MyNFT is ERC721URIStorage {
     constructor() public ERC721("magiNFT", "NFT") {}
 
     function mintNFT(address recipient, string memory tokenURI)
+        public
         returns (uint256)
     {
         _tokenIds.increment();
