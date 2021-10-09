@@ -22,7 +22,7 @@ async function mintNFT(tokenURI) {
     'nonce': nonce,
     'gas': 500000,
     'data': nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI()
-   }
+  }
 
 	const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
 	signPromise
@@ -41,4 +41,7 @@ async function mintNFT(tokenURI) {
     .catch((err) => {
       console.log(" Promise failed:", err)
     })
+
+    // test call to mint
+    mintNFT("https://gateway.pinata.cloud/ipfs/QmNLjk8NWTyD1nZ3yiuz3xW9zWc1fcN1McArCjxGbteg2r")
 }
