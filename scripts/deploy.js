@@ -1,8 +1,8 @@
 async function main() {
-  const magiNFT = await ethers.getContractFactory("magiNFT")
+  const MagiNFT = await ethers.getContractFactory("MagiNFT")
 
   // Start deployment, returning a promise that resolves to a contract object
-  const magiNFT = await magiNFT.deploy()
+  const magiNFT = await MagiNFT.deploy()
   console.log("Contract deployed to address:", magiNFT.address)
 }
 
