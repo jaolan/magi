@@ -1,0 +1,2 @@
+# magi
+contract test deployment
