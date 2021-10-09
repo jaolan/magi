@@ -42,6 +42,7 @@ async function mintNFT(tokenURI) {
       console.log(" Promise failed:", err)
     })
 
-    // test call to mint
-    mintNFT("https://gateway.pinata.cloud/ipfs/QmNLjk8NWTyD1nZ3yiuz3xW9zWc1fcN1McArCjxGbteg2r")
 }
+
+// test call to mint
+    mintNFT("https://gateway.pinata.cloud/ipfs/QmNLjk8NWTyD1nZ3yiuz3xW9zWc1fcN1McArCjxGbteg2r")
