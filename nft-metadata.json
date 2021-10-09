@@ -1,0 +1,16 @@
+{
+  "attributes": [
+    {
+      "trait_type": "t1",
+      "value": "magi"
+    },
+    {
+      "trait_type": "t2",
+      "value": "magi"
+    }
+  ],
+  "description": "collection test deployment",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNo87wwFZScj9LmPAgD2iuz3ScrdFvLWHvTKJC7cZ1geK",
+  "name": "magi"
+}
+
